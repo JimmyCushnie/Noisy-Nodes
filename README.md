@@ -1,6 +1,8 @@
 # Noisy Nodes
 Adds various noise-generation nodes to Unity Shader Graph.
 
+Most importantly, Noisy Nodes adds nodes for 3D noise. Somehow, shader graph doesn't have any 3D noise nodes built in.
+
 * Perlin noise 2D
 * Perlin noise 2D periodic
 * Perlin noise 3D
