@@ -1,0 +1,11 @@
+{
+  "name": "com.jimmycushnie.noisynodes",
+  "displayName": "Noisy Nodes",
+  "version": "1.0.0",
+  "unity": "2019.3",
+  "description": "Various noise nodes for Unity Shader Graph",
+  "keywords": [ "shader graph", "noise", "perlin", "simplex" ],
+  "category": "penis lmao",
+  "dependencies": {
+  }
+}
