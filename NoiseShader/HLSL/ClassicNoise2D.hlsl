@@ -127,3 +127,19 @@ float pnoise(float2 P, float2 rep)
   float n_xy = lerp(n_x.x, n_x.y, fade_xy.y);
   return 2.3 * n_xy;
 }
+
+
+
+// BEGIN JIMMY'S MODIFICATIONS
+
+void PerlinNoise2D_float(float2 input, out float Out)
+{
+    Out = cnoise(input);
+}
+
+void PerlinNoise2DPeriodic_float(float2 input, float2 period, out float Out)
+{
+    Out = pnoise(input, period);
+}
+
+// END JIMMY'S MODIFICATIONS

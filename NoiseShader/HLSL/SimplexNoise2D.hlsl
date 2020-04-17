@@ -139,3 +139,19 @@ float3 snoise_grad(float2 v)
     float3 px = float3(dot(x0, g0), dot(x1, g1), dot(x2, g2));
     return 130.0 * float3(grad, dot(m4, px));
 }
+
+
+
+// BEGIN JIMMY'S MODIFICATIONS
+
+void SimplexNoise2D_float(float2 input, out float Out)
+{
+    Out = snoise(input);
+}
+
+void SimplexNoise2DGradient_float(float2 input, out float Out)
+{
+    Out = snoise_grad(input);
+}
+
+// END JIMMY'S MODIFICATIONS
