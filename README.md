@@ -14,8 +14,6 @@ Adds various noise-generation nodes to Unity Shader Graph, including 3D noise no
 
 All of the fancy parts of this library come from [Noise Shader](https://github.com/keijiro/NoiseShader) by  keijiro. I just made shader graph nodes to call the functions.
 
-Please note: I am very stupid, and I do not understand mathematical noise. It is likely that several nodes and node parameters have names which do not accurately reflect their function.
-
 ## Installation
 
 Download the whole repo and stick it in your project's `Assets` folder.
