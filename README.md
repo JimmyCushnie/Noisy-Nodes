@@ -4,7 +4,7 @@ Adds various noise-generation nodes to Unity Shader Graph, including 3D noise no
 * Perlin noise 2D
 * Perlin noise 2D periodic
 * Perlin noise 3D
-* Periodic noise 3D periodic
+* Perlin noise 3D periodic
 * Simplex noise 2D
 * Simplex noise 2D gradient
 * Simplex noise 3D
