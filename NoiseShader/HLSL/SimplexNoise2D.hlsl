@@ -19,25 +19,7 @@
 //               https://github.com/ashima/webgl-noise
 //
 
-float3 mod289(float3 x)
-{
-    return x - floor(x / 289.0) * 289.0;
-}
-
-float2 mod289(float2 x)
-{
-    return x - floor(x / 289.0) * 289.0;
-}
-
-float3 permute(float3 x)
-{
-    return mod289((x * 34.0 + 1.0) * x);
-}
-
-float3 taylorInvSqrt(float3 r)
-{
-    return 1.79284291400159 - 0.85373472095314 * r;
-}
+#include "NoiseUtils.hlsl" 
 
 float snoise(float2 v)
 {
