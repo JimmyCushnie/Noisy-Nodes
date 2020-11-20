@@ -23,29 +23,7 @@
 // https://github.com/ashima/webgl-noise
 //
 
-float4 mod(float4 x, float4 y)
-{
-  return x - y * floor(x / y);
-}
-
-float4 mod289(float4 x)
-{
-  return x - floor(x / 289.0) * 289.0;
-}
-
-float4 permute(float4 x)
-{
-  return mod289(((x*34.0)+1.0)*x);
-}
-
-float4 taylorInvSqrt(float4 r)
-{
-  return (float4)1.79284291400159 - r * 0.85373472095314;
-}
-
-float2 fade(float2 t) {
-  return t*t*t*(t*(t*6.0-15.0)+10.0);
-}
+#include "NoiseUtils.hlsl" 
 
 // Classic Perlin noise
 float cnoise(float2 P)
