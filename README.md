@@ -43,6 +43,6 @@ Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://w
 
 ## Installation
 
-Download the whole repo and stick it in your project's `Assets` folder.
+Download the whole repo and stick it in your project's `Assets` or `Packages` folder.
 
 Alternatively, Noisy Nodes can be installed via the Unity Package Manager. In the top left of the `Packages` window, navigate to `Add Package -> Add package from git URL` and paste `https://github.com/JimmyCushnie/Noisy-Nodes.git`.
