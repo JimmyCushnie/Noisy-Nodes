@@ -1,18 +1,45 @@
 # Noisy Nodes
 Adds various noise-generation nodes to Unity Shader Graph, including 3D noise nodes.
 
+![demo.jpg](demo.jpg)
+
+## List of nodes
+
+#### Perlin noise
+
+Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by  @keijiro
+
 * Perlin noise 2D
 * Perlin noise 2D periodic
 * Perlin noise 3D
 * Perlin noise 3D periodic
+
+#### Simplex noise
+
+Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by @keijiro
+
 * Simplex noise 2D
 * Simplex noise 2D gradient
 * Simplex noise 3D
 * Simplex noise 3D gradient
 
-![demo.jpg](demo.jpg)
+#### Voronoi Noise 
 
-All of the fancy parts of this library come from [Noise Shader](https://github.com/keijiro/NoiseShader) by  keijiro. I just made shader graph nodes to call the functions.
+Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://cyangamedev.wordpress.com/2019/07/16/voronoi/)
+
+* Voronoi noise 2D
+* Voronoi noise 3D
+* Voronoi precise noise 2D
+* Voronoi precise noise 3D
+
+#### White Noise
+
+Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://www.ronja-tutorials.com/2018/09/02/white-noise.html)
+
+* White noise 2D
+* White noise 3D
+
+
 
 ## Installation
 
