@@ -5,7 +5,7 @@ Adds various noise-generation nodes to Unity Shader Graph, including 3D noise no
 
 ## List of nodes
 
-#### Perlin noise
+### Perlin noise
 
 Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by  @keijiro
 
@@ -14,7 +14,7 @@ Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by  @keijiro
 * Perlin noise 3D
 * Perlin noise 3D periodic
 
-#### Simplex noise
+### Simplex noise
 
 Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by @keijiro
 
@@ -23,7 +23,7 @@ Code from [Noise Shader](https://github.com/keijiro/NoiseShader) by @keijiro
 * Simplex noise 3D
 * Simplex noise 3D gradient
 
-#### Voronoi Noise 
+### Voronoi Noise 
 
 Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://cyangamedev.wordpress.com/2019/07/16/voronoi/)
 
@@ -32,7 +32,7 @@ Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://c
 * Voronoi precise noise 2D
 * Voronoi precise noise 3D
 
-#### White Noise
+### White Noise
 
 Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://www.ronja-tutorials.com/2018/09/02/white-noise.html)
 
