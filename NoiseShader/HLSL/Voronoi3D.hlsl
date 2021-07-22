@@ -40,7 +40,7 @@ void VoronoiPrecise3D_float(float3 UV, float AngleOffset, float CellDensity, out
                 float3 v = lattice + offset - f;
     
                 float3 cellDifference = abs(ml - lattice);
-                if (cellDifference.x + cellDifference.y > 0.1){
+                if (cellDifference.x + cellDifference.y + cellDifference.z > 0.1){
                     float d = dot(0.5*(mv+v), normalize(v-mv));
                     res.x = min(res.x, d);
                 }
