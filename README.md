@@ -29,8 +29,10 @@ Contributed by @fdervaux -- thank you! -- and based on [this tutorial](https://c
 
 * Voronoi noise 2D
 * Voronoi noise 3D
+* Voronoi noise 4D
 * Voronoi precise noise 2D
 * Voronoi precise noise 3D
+* Voronoi precise noise 4D
 
 ### White Noise
 
