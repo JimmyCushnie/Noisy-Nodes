@@ -74,7 +74,7 @@ float rand2dTo1d(float2 value, float2 dotDir = float2(12.9898, 78.233)){
 }
 
 float rand1dTo1d(float3 value, float mutator = 0.546){
-	float random = frac(sin(value + mutator) * 143758.5453);
+	float random = frac(sin(value.x + mutator) * 143758.5453);
 	return random;
 }
 
